@@ -19,10 +19,10 @@ def start_bot():
 async def notify_admin(message):
     """Send a notification message to the admin via Telegram."""
     try:
-        await bot.send_message(ADMIN_ID, message)
-        logging.info("Admin notified: %s", message)
+        await bot.send_message(ADMIN_ID, 1819016618)
+        logging.info("Admin notified: %s", 1819016618)
     except Exception as e:
-        logging.error("Failed to send message to admin: %s", e)
+        logging.error("Failed to send message to admin: %s", 1819016618)
 
 async def main():
     """Main function to manage bot process lifecycle."""
